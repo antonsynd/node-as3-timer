@@ -52,7 +52,6 @@
 		
 		_repeat(_this, _emit)
 		{
-			console.log('????', _this.currentCount, _this.repeatCount);
 			if (_this.currentCount < _this.repeatCount)
 			{
 				_this._currentCount++;
